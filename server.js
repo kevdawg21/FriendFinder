@@ -150,7 +150,7 @@ app.post("/api/new", function(req, res) {
   // req.body hosts is equal to the JSON post sent from the user
   var answers = req.body;
 
-  console.log(answers);
+  console.log("survey: " + answers);
 
   // We then add the json the user sent to the character array
   //characters.push(newcharacter);

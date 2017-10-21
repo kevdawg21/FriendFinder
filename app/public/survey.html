@@ -126,7 +126,7 @@
         9: $('input[name="9"]:checked').val(),
         10: $('input[name="10"]:checked').val()
       }
-      console.log(answers);
+      console.log("survey: " + answers);
       $.post("/api/new", answers)
       .done(function(data) {
         console.log("post api: " + answers);
