@@ -129,7 +129,7 @@
       console.log("survey: " + answers);
       $.post("/api/new", answers)
       .done(function(data) {
-        console.log("post api: " + data);
+        console.log(data);
       });
     });
   </script>
