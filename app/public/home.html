@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Which StarTrek TNG Character Am I</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1><strong><i>Which</i></strong></h1><img src="tng.jpg" alt="Smiley face"><h1><strong><i>Character Are You?</i></strong></h1>
+      <br><p>Find out by completing this psychologically incisive questionnaire!</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <form role="form">
+              <div class="form-group">
+                <label style="margin-right:10px" for="1">I'm good at giving orders</label>
+                1 <input type="radio" name="1" value="1">
+                2 <input type="radio" name="1" value="2">
+                3 <input type="radio" name="1" value="3">  
+                4 <input type="radio" name="1" value="2">
+                5 <input type="radio" name="1" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="2">I'm good in a fight</label> 
+                1 <input type="radio" name="2" value="1">
+                2 <input type="radio" name="2" value="2">
+                3 <input type="radio" name="2" value="3">  
+                4 <input type="radio" name="2" value="2">
+                5 <input type="radio" name="2" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="3">I'm good at solving inter-personal problems</label>
+                1 <input type="radio" name="3" value="1">
+                2 <input type="radio" name="3" value="2">
+                3 <input type="radio" name="3" value="3">  
+                4 <input type="radio" name="3" value="2">
+                5 <input type="radio" name="3" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="4">I'm good at solving mysteries</label>
+                1 <input type="radio" name="4" value="1">
+                2 <input type="radio" name="4" value="2">
+                3 <input type="radio" name="4" value="3">  
+                4 <input type="radio" name="4" value="2">
+                5 <input type="radio" name="4" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="5">I'm good at giving advice</label>
+                1 <input type="radio" name="5" value="1">
+                2 <input type="radio" name="5" value="2">
+                3 <input type="radio" name="5" value="3">  
+                4 <input type="radio" name="5" value="2">
+                5 <input type="radio" name="5" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="6">I'm good at negotiation</label>
+                1 <input type="radio" name="6" value="1">
+                2 <input type="radio" name="6" value="2">
+                3 <input type="radio" name="6" value="3">  
+                4 <input type="radio" name="6" value="2">
+                5 <input type="radio" name="6" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="7">I'm good at making friends</label>
+                1 <input type="radio" name="7" value="1">
+                2 <input type="radio" name="7" value="2">
+                3 <input type="radio" name="7" value="3">  
+                4 <input type="radio" name="7" value="2">
+                5 <input type="radio" name="7" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="8">I'm good at solving technical problems</label>
+                1 <input type="radio" name="8" value="1">
+                2 <input type="radio" name="8" value="2">
+                3 <input type="radio" name="8" value="3">  
+                4 <input type="radio" name="8" value="2">
+                5 <input type="radio" name="8" value="3">
+              </div>
+              <div class="form-group">
+                <label style="margin-right:10px" for="9">I'm good at social functions</label>
+                1 <input type="radio" name="9" value="1">
+                2 <input type="radio" name="9" value="2">
+                3 <input type="radio" name="9" value="3">  
+                4 <input type="radio" name="9" value="2">
+                5 <input type="radio" name="9" value="3">
+              </div>
+              <div style="margin-right:10px" class="form-group">
+                <label for="10">I'm good at saving the day</label>
+                1 <input type="radio" name="10" value="1">
+                2 <input type="radio" name="10" value="2">
+                3 <input type="radio" name="10" value="3">  
+                4 <input type="radio" name="10" value="2">
+                5 <input type="radio" name="10" value="3">
+              </div>
+            </form>
+            <br>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-md" id="submit"><span class="glyphicon glyphicon-search"></span> Submit Answers!</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    // Question: What does this code do?
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+      var answers = {
+        1: $('input[name="1"]:checked').val(),
+        2: $('input[name="2"]:checked').val(),
+        3: $('input[name="3"]:checked').val(),
+        4: $('input[name="4"]:checked').val(),
+        5: $('input[name="5"]:checked').val(),
+        6: $('input[name="6"]:checked').val(),
+        7: $('input[name="7"]:checked').val(),
+        8: $('input[name="8"]:checked').val(),
+        9: $('input[name="9"]:checked').val(),
+        10: $('input[name="10"]:checked').val()
+      }
+      console.log(answers);
+      $.post("/api/new", answers)
+      .done(function(data) {
+        console.log("post api: " + answers);
+      });
+
+    });
+  </script>
+</body>
+</html>

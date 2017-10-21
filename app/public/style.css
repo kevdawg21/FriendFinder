@@ -1,0 +1,22 @@
+body {
+	background-image:url("space.jpg");
+	font-family: impact;
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: blue;
+	text-align:center;
+}
+
+.panel-body {
+	background-color:black;
+	color:lightblue;
+	font-family: arial;
+	text-align:center;
+}
+
+.form-control {
+	width:40px;
+	display:inline;
+}
