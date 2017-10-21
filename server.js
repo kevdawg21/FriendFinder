@@ -156,7 +156,7 @@ app.post("/api/new", function(req, res) {
   //characters.push(newcharacter);
 
   // We then display the JSON to the users
-  //res.json(newcharacter);
+  res.json(answers);
 });
 
 // Starts the server to begin listening

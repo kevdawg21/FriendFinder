@@ -125,13 +125,12 @@
         8: $('input[name="8"]:checked').val(),
         9: $('input[name="9"]:checked').val(),
         10: $('input[name="10"]:checked').val()
-      }
+      };
       console.log("survey: " + answers);
       $.post("/api/new", answers)
       .done(function(data) {
-        console.log("post api: " + answers);
+        console.log("post api: " + data);
       });
-
     });
   </script>
 </body>
