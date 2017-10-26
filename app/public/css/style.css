@@ -25,10 +25,18 @@ body {
 	font-size: 24pt;
 	color: lightblue;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #profileCopy {
 	font-size: 10pt;
 	color: lightblue;
 	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+img {
+	display: block;
+	margin: auto;
 }

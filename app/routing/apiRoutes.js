@@ -53,7 +53,8 @@ module.exports = function(app) {
         lowestScore = total;
         leader = {
           name: characters[i].name,
-          copy: characters[i].copy
+          copy: characters[i].copy,
+          pic: characters[i].pic
         };
       }
       if (i == 7) {

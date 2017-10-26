@@ -11,7 +11,8 @@ var characters = [
 		q8: 3,
 		q9: 2,
 		q10: 5,
-		copy: "Character flaws are for other people. You are so great it isolates you from your friends--and that's just how you like it. You pretty much can only have fun with strangers who don't already know how austere you are--and even then, you pretty much only ever have fun by accident."
+		copy: "Character flaws are for other people. You are so great it isolates you from your friends--and that's just how you like it. You pretty much can only have fun with strangers who don't already know how austere you are--and even then, you only have fun by accident.",
+		pic: "/images/picard.jpg"
 	},
 	{
 		name: "William Riker",
@@ -25,7 +26,8 @@ var characters = [
 		q8: 3,
 		q9: 4,
 		q10: 4,
-		copy: "You're charming, good-looking and unfailingly competent, which is why you get to have a lot more sex than any of your friends. Having such a blessed life should make you less petty than you are though."
+		copy: "You're charming, good-looking and unfailingly competent, which is why you get to have a lot more sex than any of your friends. Having such a blessed life should make you less petty than you are though.",
+		pic: "/images/riker.jpg"
 	},
 	{
 		name: "Data",
@@ -39,7 +41,8 @@ var characters = [
 		q8: 5,
 		q9: 1,
 		q10: 5,
-		copy: "Virtually everything would fail without you but no one appreciates how indispensible you are because they don't even think of you as human. This doesn't bother you though, because you are an emotionless task-bot."
+		copy: "Virtually everything would fail without you but no one appreciates how indispensible you are because they don't even think of you as human. This doesn't bother you though, because you are an emotionless task-bot.",
+		pic: "/images/data.jpg"
 	},
 	{
 		name: "Beverly Crusher",
@@ -53,7 +56,8 @@ var characters = [
 		q8: 4,
 		q9: 3,
 		q10: 3,
-		copy: "Compassion is ethics, a lesson you've lived your life by. You're correspondingly self-righteous, but no one ever points that out since they know you'll be the one to take care of them after the next time they injure themselves."
+		copy: "Compassion is ethics, a lesson you've lived your life by. You're correspondingly self-righteous, but no one ever points that out since they know you'll be the one to take care of them after the next time they injure themselves.",
+		pic: "/images/crusher.jpg"
 	},
 	{
 		name: "Deanna Troi",
@@ -67,7 +71,8 @@ var characters = [
 		q8: 1,
 		q9: 5,
 		q10: 2,
-		copy: "You're all about emotional intelligence, which is convenient since all of your friends are such idiots in that regard. Everyone talks to you, which makes you feel much more important than you are."
+		copy: "You're all about emotional intelligence, which is convenient since all of your friends are such idiots in that regard. Everyone talks to you, which makes you feel much more important than you are.",
+		pic: "/images/troi.jpg"
 	},
 	{
 		name: "Geordi LaForge",
@@ -81,7 +86,8 @@ var characters = [
 		q8: 5,
 		q9: 3,
 		q10: 2,
-		copy: "Universally known to be smart and nice, you nonetheless never get what you want because nice people always finish last. This should make you bitter, but you just try to smile through the pain. "
+		copy: "Universally known to be smart and nice, you nonetheless never get what you want because nice people always finish last. This should make you bitter, but you just try to smile through the pain.",
+		pic: "/images/geordi.jpg"
 	},
 	{
 		name: "Worf",
@@ -95,7 +101,8 @@ var characters = [
 		q8: 3,
 		q9: 1,
 		q10: 3,
-		copy: "You're such a marginal character that no one even knows whether or not you have a surname. Probably because you're an ass, no one ever listens to you even though your advice is almost always proven to be correct by subsequent events. "
+		copy: "You're such a marginal character to others that no one even knows whether or not you have a surname. Probably because you're an ass, no one ever listens to you even though your advice is almost always proven to be correct by subsequent events.",
+		pic: "/images/worf.jpg"
 	},
 	{
 		name: "Wesley Crusher",
@@ -109,7 +116,8 @@ var characters = [
 		q8: 5,
 		q9: 3,
 		q10: 5,
-		copy: "You're the smartest person in every room, which has made you an annoying know-it-all even though it's really not what you're going for. If you keep it up, you'll just get cut out of the action."
+		copy: "You're the smartest person in every room, which has made you an annoying know-it-all to others. If you keep it up, you'll just get cut out of the action.",
+		pic: "/images/wesley.jpg"
 	}
 ];
 
