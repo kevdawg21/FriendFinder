@@ -1,6 +1,6 @@
 var characters = [
 	{
-		name: "Picard",
+		name: "Jean-Luc Picard",
 		q1: 5,
 		q2: 4,
 		q3: 4,
@@ -10,10 +10,11 @@ var characters = [
 		q7: 2,
 		q8: 3,
 		q9: 2,
-		q10: 5
+		q10: 5,
+		copy: "Character flaws are for other people. You are so great it isolates you from your friends--and that's just how you like it. You pretty much can only have fun with strangers who don't already know how austere you are--and even then, you pretty much only ever have fun by accident."
 	},
 	{
-		name: "Riker",
+		name: "William Riker",
 		q1: 5,
 		q2: 4,
 		q3: 2,
@@ -23,7 +24,8 @@ var characters = [
 		q7: 5,
 		q8: 3,
 		q9: 4,
-		q10: 4
+		q10: 4,
+		copy: "You're charming, good-looking and unfailingly competent, which is why you get to have a lot more sex than any of your friends. Having such a blessed life should make you less petty than you are though."
 	},
 	{
 		name: "Data",
@@ -36,10 +38,11 @@ var characters = [
 		q7: 4,
 		q8: 5,
 		q9: 1,
-		q10: 5
+		q10: 5,
+		copy: "Virtually everything would fail without you but no one appreciates how indispensible you are because they don't even think of you as human. This doesn't bother you though, because you are an emotionless task-bot."
 	},
 	{
-		name: "Crusher",
+		name: "Beverly Crusher",
 		q1: 3,
 		q2: 1,
 		q3: 3,
@@ -49,10 +52,11 @@ var characters = [
 		q7: 3,
 		q8: 4,
 		q9: 3,
-		q10: 3
+		q10: 3,
+		copy: "Compassion is ethics, a lesson you've lived your life by. You're correspondingly self-righteous, but no one ever points that out since they know you'll be the one to take care of them after the next time they injure themselves."
 	},
 	{
-		name: "Troi",
+		name: "Deanna Troi",
 		q1: 1,
 		q2: 1,
 		q3: 5,
@@ -62,10 +66,11 @@ var characters = [
 		q7: 4,
 		q8: 1,
 		q9: 5,
-		q10: 2
+		q10: 2,
+		copy: "You're all about emotional intelligence, which is convenient since all of your friends are such idiots in that regard. Everyone talks to you, which makes you feel much more important than you are."
 	},
 	{
-		name: "Geordi",
+		name: "Geordi LaForge",
 		q1: 3,
 		q2: 2,
 		q3: 3,
@@ -75,7 +80,8 @@ var characters = [
 		q7: 5,
 		q8: 5,
 		q9: 3,
-		q10: 2
+		q10: 2,
+		copy: "Universally known to be smart and nice, you nonetheless never get what you want because nice people always finish last. This should make you bitter, but you just try to smile through the pain. "
 	},
 	{
 		name: "Worf",
@@ -88,10 +94,11 @@ var characters = [
 		q7: 1,
 		q8: 3,
 		q9: 1,
-		q10: 3
+		q10: 3,
+		copy: "You're such a marginal character that no one even knows whether or not you have a surname. Probably because you're an ass, no one ever listens to you even though your advice is almost always proven to be correct by subsequent events. "
 	},
 	{
-		name: "Wesley",
+		name: "Wesley Crusher",
 		q1: 1,
 		q2: 2,
 		q3: 2,
@@ -101,7 +108,8 @@ var characters = [
 		q7: 3,
 		q8: 5,
 		q9: 3,
-		q10: 5
+		q10: 5,
+		copy: "You're the smartest person in every room, which has made you an annoying know-it-all even though it's really not what you're going for. If you keep it up, you'll just get cut out of the action."
 	}
 ];
 

@@ -20,3 +20,15 @@ body {
 	width:40px;
 	display:inline;
 }
+
+#profileName {
+	font-size: 24pt;
+	color: lightblue;
+	text-align: center;
+}
+
+#profileCopy {
+	font-size: 10pt;
+	color: lightblue;
+	text-align: center;
+}
