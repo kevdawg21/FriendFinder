@@ -40,8 +40,8 @@ function compareScores() {
 }
 
 
-require("./app/routing/apiRoutes")(app);
-require("./app/routing/htmlRoutes")(app);
+require("/app/routing/apiRoutes.js")(app);
+require("/app/routing/htmlRoutes.js")(app);
 
 // Starts the server to begin listening
 // =============================================================
