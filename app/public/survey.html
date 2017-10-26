@@ -115,16 +115,16 @@
     $("#submit").on("click", function(event) {
       event.preventDefault();
       var answers = {
-        1: $('input[name="1"]:checked').val(),
-        2: $('input[name="2"]:checked').val(),
-        3: $('input[name="3"]:checked').val(),
-        4: $('input[name="4"]:checked').val(),
-        5: $('input[name="5"]:checked').val(),
-        6: $('input[name="6"]:checked').val(),
-        7: $('input[name="7"]:checked').val(),
-        8: $('input[name="8"]:checked').val(),
-        9: $('input[name="9"]:checked').val(),
-        10: $('input[name="10"]:checked').val()
+        1: $('input[name="q1"]:checked').val(),
+        2: $('input[name="q2"]:checked').val(),
+        3: $('input[name="q3"]:checked').val(),
+        4: $('input[name="q4"]:checked').val(),
+        5: $('input[name="q5"]:checked').val(),
+        6: $('input[name="q6"]:checked').val(),
+        7: $('input[name="q7"]:checked').val(),
+        8: $('input[name="q8"]:checked').val(),
+        9: $('input[name="q9"]:checked').val(),
+        10: $('input[name="q10"]:checked').val()
       };
       console.log("survey: " + answers);
       $.post("/api/new", answers)
